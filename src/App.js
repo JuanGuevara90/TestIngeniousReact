@@ -10,9 +10,11 @@ function App() {
 				<li>Javascript</li>
 				<li>CSS</li>
 			</ol>
-			<button onClick={() => alert("Hola a todos en el curso")}>
-				Enviar Mensaje
-			</button>
+			<hr></hr>
+			<h2>Contador</h2>
+			<p>Value: 0</p>
+			<button onClick={() => alert("Hola a todos en el curso")}>Sumar</button>
+			<button onClick={() => alert("Hola a todos en el curso")}>Restar</button>
 		</div>
 	);
 }
