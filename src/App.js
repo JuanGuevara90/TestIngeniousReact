@@ -3,6 +3,9 @@ import "./App.css";
 
 function App() {
 	const [contador, setContador] = useState(0);
+	const handleClick = () => {
+		alert("Hola amigos");
+	};
 
 	return (
 		<div className="App">
@@ -16,8 +19,8 @@ function App() {
 			<hr></hr>
 			<h2>Contador</h2>
 			<p>Value: {contador}</p>
-			<button onClick={() => alert("Hola a todos en el curso")}>Sumar</button>
-			<button onClick={() => alert("Hola a todos en el curso")}>Restar</button>
+			<button onClick={handleClick}>Sumar</button>
+			<button onClick={handleClick}>Restar</button>
 		</div>
 	);
 }
