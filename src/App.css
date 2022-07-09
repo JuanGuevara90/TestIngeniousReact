@@ -6,6 +6,13 @@
   height: 40vmin;
   pointer-events: none;
 }
+.TeresaStyle {
+  color: green;
+  background-color: red;
+  font-size: large;
+  padding: 12px 20px;
+
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
