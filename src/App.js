@@ -10,6 +10,7 @@ function App() {
 				<li>Javascript</li>
 				<li>CSS</li>
 			</ol>
+			<button>Enviar Mensaje</button>
 		</div>
 	);
 }
